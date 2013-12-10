@@ -202,10 +202,10 @@ Use `CamelCase` (with a leading uppercase character) to name all classes. _(This
 
 _(The **official** CoffeeScript convention is camelcase, because this simplifies interoperability with JavaScript. For more on this decision, see [here][coffeescript-issue-425].)_
 
-For constants, use all uppercase with underscores:
+For constants, use normal camelCase with a prepended ```k```:
 
 ```coffeescript
-CONSTANT_LIKE_THIS
+kConstantLikeThis
 ```
 
 Methods and variables that are intended to be "private" should begin with a leading underscore:
